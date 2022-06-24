@@ -1,0 +1,11 @@
+BLOCK_SIZE = 32
+M = 1  # Margin
+ROW = 22 - M*2
+COL = 12 - M*2
+WIDTH = COL*BLOCK_SIZE + 2*M*BLOCK_SIZE
+HEIGHT = ROW*BLOCK_SIZE + 2*M*BLOCK_SIZE
+
+BG = (0, 27, 46)  # Background Color
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GRAY = (128, 128, 128)
